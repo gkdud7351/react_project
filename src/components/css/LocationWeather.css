@@ -1,0 +1,15 @@
+.locationBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+h4 {
+  margin: 0; /* h2의 기본 상하 여백 제거 */
+  padding: 0;
+}
+
+h4 h1 {
+  margin: 0; /* h1의 기본 상하 여백 제거 */
+  padding: 0;
+}
