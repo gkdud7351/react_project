@@ -48,7 +48,7 @@ const LocationWeather = () => {
       {currentLocationWeather && (
         <div style={{ zIndex: 1, width: "1000px" }}>
           <h4 style={{ color: "white" }}>
-            Your current location<h1>{currentLocationWeather.city.name}</h1>
+            Your current location<p>{currentLocationWeather.city.name}</p>
           </h4>
 
           <Swiper

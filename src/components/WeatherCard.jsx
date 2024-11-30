@@ -20,7 +20,7 @@ const WeatherCard = ({ weather }) => {
     <div className="locationBanner">
       <div style={{ zIndex: 1, width: "1000px" }}>
         <h4 style={{ color: "white" }}>
-          Weather for <h1>{weather.city.name}</h1>
+          Weather for <p>{weather.city.name}</p>
         </h4>
         <Swiper
           slidesPerView={5}
